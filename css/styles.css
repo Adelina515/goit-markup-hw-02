@@ -32,10 +32,14 @@ header{
     color: #000000;
 }
 span.header-logo{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.header-logo:hover,
+.header-logo:focus{
+    color: #000000;
+}
+span.header-logo:hover,
+span.header-logo:focus{
     color: var(--accent-color);
 }
 .header-link{
@@ -186,11 +190,6 @@ footer{
 }
 span.footer-logo{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .footer-addres{
@@ -200,20 +199,14 @@ span.footer-logo{
     letter-spacing: 0.03em;
     color: var(--primary-link-color);
 }
-.footer-mail{
+.footer-mail-tel{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
+
 /* ---------portfolio---------- */
 .portfolio {
     background-color: #FFFFFF;
