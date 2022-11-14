@@ -110,6 +110,7 @@ span.header-logo:focus{
     letter-spacing: 0.06em;
     color: var(--primary-btn-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -194,6 +195,10 @@ span.footer-logo{
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--footer-mail-tel-color);
+}
+.footer-address:hover,
+.footer-address:focus{
+    
 }
 
 /* ---------portfolio---------- */
